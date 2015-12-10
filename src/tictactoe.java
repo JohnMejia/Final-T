@@ -3,15 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle;
-/*
- * Created by JFormDesigner on Thu Dec 08 14:16:42 EST 2011
- */
 
-
-
-/**
- * @author Bradley Chelsey
- */
 public class tictactoe extends JFrame {
 	public tictactoe() {
 		initComponents();
@@ -19,135 +11,135 @@ public class tictactoe extends JFrame {
 
 	private void button1ActionPerformed(ActionEvent e) {
 		if(button1.getText().equals("")){
-        	if(Main.playerTurn == true){
+        	if(Main.player1 == true){
         		button1.setText("X");
         		Main.checkforwin();
-        		Main.playerTurn = false;
+        		Main.player1 = false;
         	} else {
         		button1.setText("O");
         		Main.checkforwin();
-        		Main.playerTurn = true;
+        		Main.player1 = true;
         	}
         }
-		// TODO add your code here
+	
 	}
 
 	private void button2ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+	
 		 if(button2.getText().equals("")){
-          	if(Main.playerTurn == true){
+          	if(Main.player1 == true){
           		button2.setText("X");
           		Main.checkforwin();
-          		Main.playerTurn = false;
+          		Main.player1 = false;
           	} else {
           		button2.setText("O");
           		Main.checkforwin();
-          		Main.playerTurn = true;
+          		Main.player1 = true;
           	}
           }
 	}
 
 	private void button3ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+	
 		if(button3.getText().equals("")){
-         	if(Main.playerTurn == true){
+         	if(Main.player1 == true){
          		button3.setText("X");
          		Main.checkforwin();
-         		Main.playerTurn = false;
+         		Main.player1 = false;
          	} else {
          		button3.setText("O");
          		Main.checkforwin();
-         		Main.playerTurn = true;
+         		Main.player1 = true;
          	}
          }
 	}
 
 	private void button4ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+	
 		 if(button4.getText().equals("")){
-          	if(Main.playerTurn == true){
+          	if(Main.player1 == true){
           		button4.setText("X");
           		Main.checkforwin();
-          		Main.playerTurn = false;
+          		Main.player1 = false;
           	} else {
           		button4.setText("O");
           		Main.checkforwin();
-          		Main.playerTurn = true;
+          		Main.player1 = true;
           	}
           }
 	}
 
 	private void button5ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+	
 		 if(button5.getText().equals("")){
-          	if(Main.playerTurn == true){
+          	if(Main.player1 == true){
           		button5.setText("X");
           		Main.checkforwin();
-          		Main.playerTurn = false;
+          		Main.player1 = false;
           	} else {
           		button5.setText("O");
           		Main.checkforwin();
-          		Main.playerTurn = true;
+          		Main.player1 = true;
           	}
           }
 	}
 
 	private void button6ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+
 		 if(button6.getText().equals("")){
-          	if(Main.playerTurn == true){
+          	if(Main.player1 == true){
           		button6.setText("X");
           		Main.checkforwin();
-          		Main.playerTurn = false;
+          		Main.player1 = false;
           	} else {
           		button6.setText("O");
           		Main.checkforwin();
-          		Main.playerTurn = true;
+          		Main.player1 = true;
           	}
           }
 	}
 
 	private void button7ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+		
 		if(button7.getText().equals("")){
-         	if(Main.playerTurn == true){
+         	if(Main.player1 == true){
          		button7.setText("X");
          		Main.checkforwin();
-         		Main.playerTurn = false;
+         		Main.player1 = false;
          	} else {
          		button7.setText("O");
          		Main.checkforwin();
-         		Main.playerTurn = true;
+         		Main.player1 = true;
          	}
          }
 	}
 
 	private void button8ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+	
 		 if(button8.getText().equals("")){
-          	if(Main.playerTurn == true){
+          	if(Main.player1 == true){
           		button8.setText("X");
           		Main.checkforwin();
-          		Main.playerTurn = false;
+          		Main.player1 = false;
           	} else {
           		button8.setText("O");
           		Main.checkforwin();
-          		Main.playerTurn = true;
+          		Main.player1 = true;
           	}
           }
 	}
 
 	private void button9ActionPerformed(ActionEvent e) {
-		// TODO add your code here
+	
 		 if(button9.getText().equals("")){
-          	if(Main.playerTurn == true){
+          	if(Main.player1 == true){
           		button9.setText("X");
           		Main.checkforwin();
-          		Main.playerTurn = false;
+          		Main.player1 = false;
           	} else {
           		button9.setText("O");
           		Main.checkforwin();
-          		Main.playerTurn = true;
+          		Main.player1 = true;
           	}
           }
 	}
@@ -155,21 +147,9 @@ public class tictactoe extends JFrame {
  		System.exit(0);
  		}
  
- public void button11ActionPerformed(ActionEvent e){
- 	button1.setText("");
- 	button2.setText("");
- 	button3.setText("");
- 	button4.setText("");
- 	button5.setText("");
- 	button6.setText("");
- 	button7.setText("");
- 	button8.setText("");
- 	button9.setText("");
- }
-
+ 
 	private void initComponents() {
-		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-		// Generated using JFormDesigner Evaluation license - Bradley Chelsey
+
 		button1 = new JButton();
 		button2 = new JButton();
 		button3 = new JButton();
@@ -179,14 +159,13 @@ public class tictactoe extends JFrame {
 		button7 = new JButton();
 		button8 = new JButton();
 		button9 = new JButton();
-		button10 = new JButton();
-        button11 = new JButton();
+	
 
-		//======== this ========
+		
 		setTitle("Tic Tac Toe");
 		Container contentPane = getContentPane();
 
-		//---- button1 ----
+		//button1
 		button1.setText("");
 		button1.addActionListener(new ActionListener() {
 			@Override
@@ -195,7 +174,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button2 ----
+		//button2
 		button2.setText("");
 		button2.addActionListener(new ActionListener() {
 			@Override
@@ -204,7 +183,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button3 ----
+		//button3
 		button3.setText("");
 		button3.addActionListener(new ActionListener() {
 			@Override
@@ -213,7 +192,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button4 ----
+		//button4
 		button4.setText("");
 		button4.addActionListener(new ActionListener() {
 			@Override
@@ -222,7 +201,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button5 ----
+		//button5
 		button5.setText("");
 		button5.addActionListener(new ActionListener() {
 			@Override
@@ -231,7 +210,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button6 ----
+		//button6
 		button6.setText("");
 		button6.addActionListener(new ActionListener() {
 			@Override
@@ -240,7 +219,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button7 ----
+		//button7
 		button7.setText("");
 		button7.addActionListener(new ActionListener() {
 			@Override
@@ -249,7 +228,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button8 ----
+		//button8
 		button8.setText("");
 		button8.addActionListener(new ActionListener() {
 			@Override
@@ -258,7 +237,7 @@ public class tictactoe extends JFrame {
 			}
 		});
 
-		//---- button9 ----
+		//button9
 		button9.setText("");
 		button9.addActionListener(new ActionListener() {
 			@Override
@@ -316,11 +295,10 @@ public class tictactoe extends JFrame {
 		);
 		pack();
 		setLocationRelativeTo(getOwner());
-		// JFormDesigner - End of component initialization  //GEN-END:initComponents
+	
 	}
 
-	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-	// Generated using JFormDesigner Evaluation license - Bradley Chelsey
+
 	public JButton button1;
 	public JButton button2;
 	public JButton button3;
@@ -330,8 +308,5 @@ public class tictactoe extends JFrame {
 	public JButton button7;
 	public JButton button8;
 	public JButton button9;
-	public JButton button10;
-    public JButton button11;
 	public boolean setVisible;
-	// JFormDesigner - End of variables declaration  //GEN-END:variables
 }
