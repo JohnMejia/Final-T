@@ -188,8 +188,8 @@ public class Main {
 									 			board.setVisible(true);
 									 	
 									 		}else {
-									 			System.out.println("Thanks for playing! ");
-									 			
+									 			System.out.println("Goodbye! ");
+									 			System.exit(0);
 									 		}
 									 	}
 												 

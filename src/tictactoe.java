@@ -4,6 +4,11 @@ import javax.swing.*;
 import javax.swing.GroupLayout;
 import javax.swing.LayoutStyle;
 
+
+//constructor
+//condense
+//switch from main to tictactoe
+
 public class tictactoe extends JFrame {
 	public tictactoe() {
 		initComponents();
